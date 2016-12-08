@@ -1,0 +1,14 @@
+#ifndef _obj_BeCalled_VtkCdsCallSt_Callback_H
+#define _obj_BeCalled_VtkCdsCallSt_Callback_H
+
+void Callback_BeCalled_ToRedial_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToTransfer_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToRinging_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToAck_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToBye_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToWaiting_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToUnlock_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToTimeout_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToError_VtkUnicastCall(BECALLED_STRUCT *msg);
+void Callback_BeCalled_ToForceClose_VtkUnicastCall(BECALLED_STRUCT *msg);
+#endif
